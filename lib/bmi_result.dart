@@ -63,7 +63,8 @@ class BmiresultState extends State<Bmiresult> {
                 height: 400,
                 padding: EdgeInsets.all(30),
                 margin: EdgeInsets.all(20),
-                child: KdGaugeView(
+                child:
+                KdGaugeView(
                   minSpeed: 0,
                   maxSpeed: 100,
                   speed: result,
