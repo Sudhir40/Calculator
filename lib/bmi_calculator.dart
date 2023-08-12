@@ -42,6 +42,9 @@ class bmi_calculatorState extends State<bmi_calculator>{
               child: Row(
                 children: [
                   Expanded(
+
+                    /*male Container ------------------*/
+
                     child: InkWell(
                       onTap: () {
                         gendercontainer = Colors.cyan;
@@ -83,6 +86,9 @@ class bmi_calculatorState extends State<bmi_calculator>{
                     ),
                   ),
                   Expanded(
+
+                    /*male Container ------------------*/
+
                     child: InkWell(
                       onTap: () {
                         gendercontainer = Colors.black54;
@@ -445,6 +451,9 @@ class bmi_calculatorState extends State<bmi_calculator>{
             SizedBox(
               height: 5,
             ),
+
+            /*calculate  btn  Container ------------------*/
+
             InkWell(
               onTap: () {
                 double h_in_m = height / 100;

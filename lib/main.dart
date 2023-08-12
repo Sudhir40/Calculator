@@ -26,6 +26,9 @@ class bmi extends StatefulWidget {
 class bmiState extends State<bmi>{
   void initState(){
     super.initState();
+
+    //Splash screen timer
+
     Timer(Duration(seconds: 3),(){
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>bmi_calculator()));
     });
@@ -38,6 +41,9 @@ class bmiState extends State<bmi>{
       body: Container(
         padding: EdgeInsets.all(50),
         child:
+
+            /*Splash screen Animation*/
+
         KdGaugeView(
           minSpeed: 0,
           maxSpeed: 100,
